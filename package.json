@@ -30,13 +30,13 @@
     "@babel/runtime": "7.28.6",
     "@ethersproject/abi": "5.0.9",
     "@tronweb3/google-protobuf": "3.21.2",
-    "axios": "1.13.6",
+    "axios": ">=1.19.0",
     "bignumber.js": "9.0.1",
     "ethereum-cryptography": "2.0.0",
     "ethers": "6.16.0",
     "eventemitter3": "3.1.0",
     "injectpromise": "1.0.0",
-    "lodash": "4.17.23",
+    "lodash": ">=4.18.1",
     "querystring-es3": "0.2.1",
     "semver": "5.7.2",
     "validator": "13.15.26"
@@ -100,6 +100,14 @@
     "url": "https://github.com/lineaje-labs-gos/tronprotocol-tronweb"
   },
   "overrides": {
-    "serialize-javascript": "7.0.3"
+    "serialize-javascript": "7.0.3",
+    "axios": ">=1.19.0",
+    "lodash": ">=4.18.1",
+    "ws": ">=8.21.3"
+  },
+  "resolutions": {
+    "axios": ">=1.19.0",
+    "lodash": ">=4.18.1",
+    "ws": ">=8.21.3"
   }
 }
